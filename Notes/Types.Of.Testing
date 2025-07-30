@@ -1,0 +1,31 @@
+Main Categories of Testing
+
+Exectution
+    1. Manual - Human, step by step.
+    2. Automated - Script/tools, like selenium, cypress.
+
+Testing Methods
+    1. Black Box Testing - No knowledge of internal code.
+    2. White Box Testing - Full knowledge of internal code.
+    3. Gray Box Testing - Some internal knowledge.
+
+Testing based on functionality.
+    1. Functional - Checks if the programs works as intended
+    2. Non-Functional - Checks how well the product works. 
+
+Levels of Testing
+    1. Unit - Small pieces
+    2. Integration - How they work together
+    3. System - End to end 
+    4. Acceptance - QA or Users
+
+Specialized Testing
+    1. Smoke - Checks if everything works, stable.
+    2. Sanity - Verify funtions work after fixes
+    3. Regression - Ensures new code doesent break old code
+    4. Exploratory - QA does not follow a script/test case
+    5. Performance - Loads, speed, stress,
+    6. Secuirty - Vunnerabilities
+    7. Usuability - User experience
+    8. Compatability - Cross-browers, OS's
+    9. Localization - Different regions/languages

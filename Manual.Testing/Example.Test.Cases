@@ -1,0 +1,33 @@
+Typical text case format
+
+    Test Case ID: Attempt_Login_001
+    Title: Test Login
+    Description: Checks to see if the user can login in.
+    Test Steps: 1. Go to login page. 2. enter valid email. 3. enter wrong password. 4. Click "login"
+    Expected Result: User should not be logged in and prompted "Password is incorrect"
+    Actual: User is not logged in, and prompted a error 404 message
+    Status: functionality
+    Severity: Medium
+
+Gherkin Text Case
+
+    Feature: User Login
+    Scenario: User is tryinng to login with valid informaion
+    Given: the user is on the login page
+    When: the user enters a valid email and passwords and clicks "login"
+    Then: the user is taken to their account information page
+
+
+Gherkin Scenario Testing
+
+Scenario Outline: Search returns correct results
+  Given the user is on the search page
+  When the user enters "<searchTerm>" into the search bar
+  And clicks the "Search" button
+  Then the message "<message>" is displayed
+
+    Examples:
+  | searchTerm   | message               |
+  | laptop       | Results found         |
+  | asdfghjkl    | No results found      |
+  | headphones   | Results found         |
