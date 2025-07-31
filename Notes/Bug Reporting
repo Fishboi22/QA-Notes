@@ -1,0 +1,6 @@
+Bug reporting is essential to make devs aware of problems so they get fixed asap.
+
+A good bug report should have 
+	1. steps to reproduce 
+	2. The expected vs actual 
+	3. The environment (brower, version, OS, VPN)
