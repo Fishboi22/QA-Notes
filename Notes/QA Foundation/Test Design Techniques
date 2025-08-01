@@ -1,0 +1,58 @@
+Test desgin techniques are structured methods to
+    Create efficient, focused test cases
+    reduce dupliate or random test writing
+    improve coverage while saving time
+
+1. Equivalence Partitioning (EP)
+    Concept: Input data is divived into paritions or classes that the system treates the same. then you test just one value from each clas
+
+    Why: If some inputs from a group behave a certain way all other in the group likely will too, so no need to test them all.
+
+    Benefits:
+    Reduces test cases by grouping equivalent values
+
+    Still ensures wide coverage of edge cases
+
+    Works well for inputs like forms, APIs, filters, validators
+
+
+    Example:
+    Suppose you have a form with an input field:
+    “Enter age (must be between 18 and 65)”
+
+    Possible Partitions:
+    Partition Type	Input Range	Valid?
+    Below range	< 18-Invalid
+    Within range	18–65-Valid
+    Above range	> 65 Invalid
+
+    So you'd test:
+
+    One value below 18 (e.g., 16)
+
+    One value within range (e.g., 30)
+
+    One value above 65 (e.g., 70)
+
+    No need to test 19, 20, 21... if 30 already shows that 18–65 works.
+
+    Step 1: Identify Valid Partition
+        Valid passwords = Between 8 and 16 characters, using allowed characters
+
+        Example: QaTest123!
+
+         Step 2: Identify Invalid Partitions
+        Partition Type	Example	Why it's Invalid
+        Too short	Abc123	Less than 8 characters
+        Too long	ThisIsWayTooLong123!	More than 16 characters
+        Contains disallowed chars	Password<>	Includes < or > (if not allowed)
+        Empty input	(blank)	No input
+
+        📋 EP-Based Test Case Examples:
+        Test Case|Input|Expected|Outcome
+        
+        Valid password|QaTest123!|Accepted
+        Too short|Test1|Rejected
+        Too long|MyLongPassword123!!|Rejected
+        Disallowed characters|Pass#word<|Rejected
+        Blank input|(blank)|Rejected

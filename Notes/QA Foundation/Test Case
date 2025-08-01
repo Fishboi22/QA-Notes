@@ -1,0 +1,16 @@
+A test case is a set of clearly defines steps, inputs, and expected results to determine if a software is working correctly.
+
+it includes
+    Test case ID
+    Test Title/description
+    Preconditions
+    Test steps
+    Expected result
+    Actual result
+    Stats: Pass/Fail
+
+A good test case is 
+    Simple
+    Reproductible
+    Specific
+    Traceable

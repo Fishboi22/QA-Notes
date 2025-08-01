@@ -1,0 +1,66 @@
+Bug reporting is essential to make devs aware of problems so they get fixed asap.
+
+A good bug report should have 
+	1. steps to reproduce 
+	2. The expected vs actual 
+	3. The environment (brower, version, OS, VPN)
+
+A Simple Bug Structure Report
+
+	Title — short summary of the bug
+
+	Environment — browser, OS, app version, network conditions
+
+	Preconditions — what’s set up before the bug occurs
+
+	Steps to Reproduce — clear numbered actions
+
+	Expected Result — what should happen
+
+	Actual Result — what did happen
+
+	Severity/Priority — how bad/urgent the bug is
+
+	Attachments — screenshots, video, logs
+
+	Bug ID: BUG_001
+
+Title: Login button does not respond when clicked
+	Environment: Chrome 114.0.5735.199 on Windows 10, no VPN
+	Preconditions: User is on the login page with valid credentials entered
+	Steps to Reproduce:
+
+	Navigate to the login page
+
+	Enter valid username and password
+
+	Click the "Login" button
+
+	Expected Result:
+	User should be logged in and redirected to the homepage
+
+	Actual Result:
+	Nothing happens when clicking the "Login" button; no error message displayed
+
+	Severity: High — user cannot log in
+	Attachments: Screenshot showing the filled login form and unresponsive button
+
+EXAMPLE
+	Title: Form field does not accept user input
+	Environment: DuckDuckGo Browser vX.XX.XXXX on Windows 11, VPN enabled
+	Preconditions: User is on the form page containing the input fields
+	Steps to Reproduce:
+
+	Navigate to the form page URL
+
+	Click on the input field(s)
+
+	Attempt to type any information
+
+	Expected Result:
+	User is able to enter text into the input fields
+
+	Actual Result:
+	Input fields do not accept any keystrokes; user cannot enter information
+
+	Severity: High — blocks form submission

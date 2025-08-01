@@ -9,6 +9,29 @@ Typical text case format
     Status: functionality
     Severity: Medium
 
+Test Case ID: Login_Attempt_001
+  Title: User login with valid credentials
+  Preconditions: User has an existing account with a valid email and password
+  Test Steps:
+    Navigate to the login page
+
+    Enter a valid email address
+
+    Enter the correct password
+
+    Click the "Login" button
+
+  Expected Result:
+  User is successfully logged in and redirected to the homepage
+
+  Actual Result:
+  User is prompted with a 404 error
+
+  Status: Fail
+
+
+
+
 Gherkin Text Case
 
     Feature: User Login

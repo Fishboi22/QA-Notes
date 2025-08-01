@@ -1,0 +1,73 @@
+Agile Software Testing
+
+Agile is a methodology and mindset.
+    Uses fast, flexible plans instead of longterm plans
+    Delivers working products faster and free of issues to meet user requirments.
+
+Shift Left: Moving testing earlier in the development lifecycle.
+
+Agile is what makes SDLC parallel with STLC
+
+Agile uses frameworks like SCRUM, to utilize the methodology of agile.
+
+Most modern day companies utilize agile due to its effectiveness and flexability. 
+
+Agile Test Plan Essentials
+Scope
+
+Which feature or user story is being tested
+
+What’s in and out of testing for this sprint
+
+Objectives
+
+What the feature is supposed to do (purpose)
+
+What’s testable (acceptance criteria)
+
+Team & Roles
+
+Who’s responsible for testing, development, and review
+
+Communication channels (e.g., Slack, Jira comments)
+
+Testing Approach
+
+Types of testing to perform (manual, automation, exploratory)
+
+Tools used (Jira for tracking, test case management tools, browsers, devices)
+
+Schedule & Milestones
+
+When tests will be designed, executed, and results reviewed
+
+Sprint deadlines and daily standups
+
+Risks & Dependencies
+
+Potential blockers (e.g., incomplete feature, environment instability)
+
+External dependencies (APIs, third-party services)
+
+Fix Login Issue///
+Scope:
+Fix the login feature to handle valid, invalid, and blank credentials properly.
+
+Objectives:
+Ensure users can:
+
+Login successfully with valid credentials
+
+Receive appropriate error messages for invalid or blank credentials
+
+Team & Roles:
+QA and Development teams collaborate using Jira for task tracking and communication.
+
+Testing Approach:
+Both manual and automated testing will be used. Jira will track test cases and bugs.
+
+Schedule:
+Testing progress will be discussed during daily morning standups.
+
+Risks & Dependencies:
+To be investigated — may include environment issues or incomplete fixes.
