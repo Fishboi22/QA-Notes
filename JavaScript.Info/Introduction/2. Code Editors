@@ -1,0 +1,12 @@
+There are (2) main types of code editors
+
+1. IDE (Integrated Development Enviroment)
+    Used for whole projects, and intergrates version control, testing enviroment. etc.
+    provides autocompletion within the while project, not just an open file
+    Visual Studio Code is a IDE
+
+
+2. Lightweight editors:
+    Not as powerful as IDE but are fast and Simple
+
+Code editors are mainly preference, there are many options to pick and choose one. it might even depend on the programming language you are using or if its paid/free 
