@@ -1,0 +1,24 @@
+//Notes of JavaScript Coding
+
+//Using an for loop to modify an array
+// to convert Fahrenheit to Celsius
+{
+const fahrenheit = [32, 45, 50, 60, 72, 85, 90];
+const celsius = [];
+for (const element of fahrenheit){
+    let c = (element - 32) * (5/9);
+    celsius.push(c);
+}
+console.log(celsius);
+}
+
+{
+//A better way to get the same result is to use the map method
+//The syntax of a map is arrayName.map(element)
+const fahrenheit = [32, 45, 50, 60, 72, 85, 90];
+const celsius = fahrenheit.map(function(element) {
+    return (element - 32) * (5/9);
+}
+)
+console.log(celsius);
+}
