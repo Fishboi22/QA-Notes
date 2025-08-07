@@ -3,7 +3,11 @@ Typical text case format
     Test Case ID: Attempt_Login_001
     Title: Test Login
     Description: Checks to see if the user can login in.
-    Test Steps: 1. Go to login page. 2. enter valid email. 3. enter wrong password. 4. Click "login"
+    Test Steps: 
+      1. Go to login page. 
+      2. enter valid email. 
+      3. enter wrong password. 
+      4. Click "login"
     Expected Result: User should not be logged in and prompted "Password is incorrect"
     Actual: User is not logged in, and prompted a error 404 message
     Status: functionality
