@@ -1,11 +1,8 @@
-import { describe, it } from "mocha";
-import assert from "assert";
-// Test cases for mathematical operations
-// Test cases for arithmetic operations
-
-
+const assert = require('assert');
+const { describe, it } = require('mocha');
 
 describe('Mathematical Operations', function () {
+
 
     it("Addition of two variables", function () {
         let a = 5;
@@ -26,7 +23,7 @@ describe('Mathematical Operations', function () {
     });
 
     it("Multiplication of two variables", function () {
-        var a = 5;
+        let a = 5;
         let b = 10;
 
         let c = a * b;
