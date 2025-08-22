@@ -1,0 +1,30 @@
+/*
+Mocha Reporters:
+
+// Console-friendly (good for development)
+
+- spec       : Default nested descriptive output
+- dot        : Each test is a dot (green=pass, red=fail)
+- nyan       : Rainbow cat animation (fun)
+- min        : Minimal output
+- progress   : Progress bar + summary
+- list       : Lists all test titles (simple)
+
+// CI / Automation-friendly
+
+- xunit      : XML output for Jenkins, Bamboo, etc.
+- json       : JSON output for further processing
+- tap        : Test Anything Protocol
+
+// HTML / Fancy reports (require additional packages)
+
+- mochawesome : Generates HTML + JSON report with charts
+- html       : HTML reporter (basic)
+- markdown   : Markdown output
+
+// Others
+
+- landing   : Summary at the end (simple)
+- spec2     : Alternative nested spec output
+- doc       : Documentation style
+*/

@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Fishboi22/QA-Notes/issues"
   },
-  "homepage": "https://github.com/Fishboi22/QA-Notes#readme"
+  "homepage": "https://github.com/Fishboi22/QA-Notes#readme",
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
 }
+
+
